@@ -1,0 +1,385 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20211.21.0617.1133                               -->
+<workbook source-build='2021.1.3 (20211.21.0617.1133)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='2000msacombined' inline='true' name='federated.0h7gise0voy7d215pxwoh0y8sj2m' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='2000msacombined' name='textscan.1wu4bbz18sokxo12ps5mn0anf3xc'>
+            <connection class='textscan' directory='C:/Users/mallo/Documents/NSS/tech-hubs-brain-drain/data/OEWS' filename='2000msacombined.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1wu4bbz18sokxo12ps5mn0anf3xc' name='2000msacombined.csv' table='[2000msacombined#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='string' name='prim_state' ordinal='1' />
+            <column datatype='string' name='area' ordinal='2' />
+            <column datatype='string' name='area_name' ordinal='3' />
+            <column datatype='string' name='occ_code' ordinal='4' />
+            <column datatype='string' name='occ_titl' ordinal='5' />
+            <column datatype='integer' name='tot_emp' ordinal='6' />
+            <column datatype='integer' name='a_mean' ordinal='7' />
+            <column datatype='integer' name='a_wpct10' ordinal='8' />
+            <column datatype='integer' name='a_wpct25' ordinal='9' />
+            <column datatype='integer' name='a_median' ordinal='10' />
+            <column datatype='integer' name='a_wpct75' ordinal='11' />
+            <column datatype='integer' name='a_wpct90' ordinal='12' />
+            <column datatype='date' date-parse-format='yyyy' name='year' ordinal='13' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1wu4bbz18sokxo12ps5mn0anf3xc' name='2000msacombined.csv' table='[2000msacombined#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='string' name='prim_state' ordinal='1' />
+            <column datatype='string' name='area' ordinal='2' />
+            <column datatype='string' name='area_name' ordinal='3' />
+            <column datatype='string' name='occ_code' ordinal='4' />
+            <column datatype='string' name='occ_titl' ordinal='5' />
+            <column datatype='integer' name='tot_emp' ordinal='6' />
+            <column datatype='integer' name='a_mean' ordinal='7' />
+            <column datatype='integer' name='a_wpct10' ordinal='8' />
+            <column datatype='integer' name='a_wpct25' ordinal='9' />
+            <column datatype='integer' name='a_median' ordinal='10' />
+            <column datatype='integer' name='a_wpct75' ordinal='11' />
+            <column datatype='integer' name='a_wpct90' ordinal='12' />
+            <column datatype='date' date-parse-format='yyyy' name='year' ordinal='13' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[2000msacombined.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[2000msacombined.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2000msacombined.csv_7BB319070343434F98C419BDC365F5B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>prim_state</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[prim_state]</local-name>
+            <parent-name>[2000msacombined.csv]</parent-name>
+            <remote-alias>prim_state</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2000msacombined.csv_7BB319070343434F98C419BDC365F5B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>area</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[area]</local-name>
+            <parent-name>[2000msacombined.csv]</parent-name>
+            <remote-alias>area</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2000msacombined.csv_7BB319070343434F98C419BDC365F5B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>area_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[area_name]</local-name>
+            <parent-name>[2000msacombined.csv]</parent-name>
+            <remote-alias>area_name</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2000msacombined.csv_7BB319070343434F98C419BDC365F5B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>occ_code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[occ_code]</local-name>
+            <parent-name>[2000msacombined.csv]</parent-name>
+            <remote-alias>occ_code</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2000msacombined.csv_7BB319070343434F98C419BDC365F5B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>occ_titl</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[occ_titl]</local-name>
+            <parent-name>[2000msacombined.csv]</parent-name>
+            <remote-alias>occ_titl</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2000msacombined.csv_7BB319070343434F98C419BDC365F5B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tot_emp</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[tot_emp]</local-name>
+            <parent-name>[2000msacombined.csv]</parent-name>
+            <remote-alias>tot_emp</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2000msacombined.csv_7BB319070343434F98C419BDC365F5B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>a_mean</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[a_mean]</local-name>
+            <parent-name>[2000msacombined.csv]</parent-name>
+            <remote-alias>a_mean</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2000msacombined.csv_7BB319070343434F98C419BDC365F5B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>a_wpct10</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[a_wpct10]</local-name>
+            <parent-name>[2000msacombined.csv]</parent-name>
+            <remote-alias>a_wpct10</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2000msacombined.csv_7BB319070343434F98C419BDC365F5B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>a_wpct25</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[a_wpct25]</local-name>
+            <parent-name>[2000msacombined.csv]</parent-name>
+            <remote-alias>a_wpct25</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2000msacombined.csv_7BB319070343434F98C419BDC365F5B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>a_median</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[a_median]</local-name>
+            <parent-name>[2000msacombined.csv]</parent-name>
+            <remote-alias>a_median</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2000msacombined.csv_7BB319070343434F98C419BDC365F5B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>a_wpct75</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[a_wpct75]</local-name>
+            <parent-name>[2000msacombined.csv]</parent-name>
+            <remote-alias>a_wpct75</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2000msacombined.csv_7BB319070343434F98C419BDC365F5B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>a_wpct90</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[a_wpct90]</local-name>
+            <parent-name>[2000msacombined.csv]</parent-name>
+            <remote-alias>a_wpct90</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2000msacombined.csv_7BB319070343434F98C419BDC365F5B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[2000msacombined.csv]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2000msacombined.csv_7BB319070343434F98C419BDC365F5B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='2000msacombined.csv' datatype='table' name='[__tableau_internal_object_id__].[2000msacombined.csv_7BB319070343434F98C419BDC365F5B0]' role='measure' type='quantitative' />
+      <column caption='A Mean' datatype='integer' name='[a_mean]' role='measure' type='quantitative' />
+      <column caption='A Median' datatype='integer' name='[a_median]' role='measure' type='quantitative' />
+      <column caption='A Wpct10' datatype='integer' name='[a_wpct10]' role='measure' type='quantitative' />
+      <column caption='A Wpct25' datatype='integer' name='[a_wpct25]' role='measure' type='quantitative' />
+      <column caption='A Wpct75' datatype='integer' name='[a_wpct75]' role='measure' type='quantitative' />
+      <column caption='A Wpct90' datatype='integer' name='[a_wpct90]' role='measure' type='quantitative' />
+      <column caption='Area' datatype='string' default-role='measure' default-type='quantitative' name='[area]' role='dimension' type='nominal' />
+      <column caption='Area Name' datatype='string' name='[area_name]' role='dimension' semantic-role='[CMSA].[Name]' type='nominal' />
+      <column caption='Occ Code' datatype='string' name='[occ_code]' role='dimension' type='nominal' />
+      <column caption='Occ Titl' datatype='string' name='[occ_titl]' role='dimension' type='nominal' />
+      <column caption='Prim State' datatype='string' name='[prim_state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Tot Emp' datatype='integer' name='[tot_emp]' role='measure' type='quantitative' />
+      <column caption='Year' datatype='date' name='[year]' role='dimension' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='2000msacombined.csv' id='2000msacombined.csv_7BB319070343434F98C419BDC365F5B0'>
+            <properties context=''>
+              <relation connection='textscan.1wu4bbz18sokxo12ps5mn0anf3xc' name='2000msacombined.csv' table='[2000msacombined#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='F1' ordinal='0' />
+                  <column datatype='string' name='prim_state' ordinal='1' />
+                  <column datatype='string' name='area' ordinal='2' />
+                  <column datatype='string' name='area_name' ordinal='3' />
+                  <column datatype='string' name='occ_code' ordinal='4' />
+                  <column datatype='string' name='occ_titl' ordinal='5' />
+                  <column datatype='integer' name='tot_emp' ordinal='6' />
+                  <column datatype='integer' name='a_mean' ordinal='7' />
+                  <column datatype='integer' name='a_wpct10' ordinal='8' />
+                  <column datatype='integer' name='a_wpct25' ordinal='9' />
+                  <column datatype='integer' name='a_median' ordinal='10' />
+                  <column datatype='integer' name='a_wpct75' ordinal='11' />
+                  <column datatype='integer' name='a_wpct90' ordinal='12' />
+                  <column datatype='date' date-parse-format='yyyy' name='year' ordinal='13' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2000msacombined' name='federated.0h7gise0voy7d215pxwoh0y8sj2m' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0h7gise0voy7d215pxwoh0y8sj2m'>
+            <column caption='Area Name' datatype='string' name='[area_name]' role='dimension' semantic-role='[CMSA].[Name]' type='nominal' />
+            <column-instance column='[area_name]' derivation='None' name='[none:area_name:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0h7gise0voy7d215pxwoh0y8sj2m].[Longitude (generated)]' field-type='quantitative' max='-7520690.3123776242' min='-14042012.740461975' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0h7gise0voy7d215pxwoh0y8sj2m].[Latitude (generated)]' field-type='quantitative' max='5851571.8025596905' min='2668282.1268760674' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0h7gise0voy7d215pxwoh0y8sj2m].[none:area_name:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0h7gise0voy7d215pxwoh0y8sj2m].[Latitude (generated)]</rows>
+        <cols>[federated.0h7gise0voy7d215pxwoh0y8sj2m].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{913F7066-4A15-4365-A48D-05BA7E112F72}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='0.833333' source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{49792D9A-DE4D-4A07-98D3-6AC9247BB436}' />
+    </window>
+  </windows>
+</workbook>
