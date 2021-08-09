@@ -10,4 +10,8 @@ The source data was obtained from the Occupational Employment and Wage Statistic
 
 xxx
 
-[Full List of SOC Occupations](https://www.bls.gov/oes/current/oes_stru.htm)
+[What is a Standard Occupational Classification (SOC) code?](https://www.bls.gov/soc/)
+[2000 SOC System](https://www.bls.gov/soc/2000/home.htm)
+[2010 SOC System](https://www.bls.gov/soc/2010/home.htm)
+
+[Full List of 2020 SOC Occupations](https://www.bls.gov/oes/current/oes_stru.htm)
