@@ -46,3 +46,5 @@ xxx
 [Full List of 2020 SOC Occupations](https://www.bls.gov/oes/current/oes_stru.htm)
 
 ## Methodology
+
+## Key Insights
