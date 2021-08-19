@@ -102,15 +102,15 @@ The remaining tech hubs resided in states experiencing active brain gain between
 ## Key Insights: Data Question 2
 * Is is possible to observe the emergence of a tech hub in one state and a brain drain in neighboring states?
 
-Yes! Atlanta-Sandy Springs-Roswell, GA and Austin-Round Rock, TX are prime examples of this phenomenon. Both experienced tech job volume growth from 2000 to 2017, and tech jobs per 1,000 growth from 2010 to 2017, while one or more adjacent states experienced brain drain. 
+Yes! Atlanta-Sandy Springs-Roswell, GA is a prime example of this phenomenon. It experienced tech job volume growth from 2000 to 2017, and tech jobs per 1,000 growth from 2010 to 2017, while one or more adjacent states experienced brain drain. 
 
 ## Key Insights: Data Question 3
 * Do states that have tech hubs experience less brain drain overall?
 
-Yes! We can definitely observe a pattern here. Out of the 19 tech hubs identified in this study, only one was located in a state with positive brain drain measures.
+Yes! We can definitely observe a pattern here. Out of the 19 tech hubs identified in this study, only one was located in a state with a positive brain drain measure.
 
-## Additional Key Insights
+## Additional Key Insight
 
-In 2017,  Nashville was not yet a tech hub by the definition established above. In fact, the Nashville MSA was only about half as “techy” as the Austin, TX MSA in 2017.
+In 2017,  Nashville was not yet a tech hub by the definition established above. In fact, the Nashville MSA was only about half as “techy” as the Austin, TX MSA in 2017, as indicated by the jobs per 1,000 measure.
 
-The presence of military bases and/or defense contractor employers can contribute to the presence of a tech hub in a given area, as evidenced by California-Lexington Park, MD, home of Naval Air Systems Command. 
+
