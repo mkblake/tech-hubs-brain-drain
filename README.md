@@ -85,4 +85,32 @@ I downloaded .csv source files from my two data sources. I cleaned the OEWS file
 - North Carolina
 - Washington
 
+## Key Insights: Data Question 1
+* Is it possible for a tech hub to emerge in a state despite documented brain drain in that state?
 
+Yes! It is possible for a tech hub to grow in job volume despite active brain drain occurring across the state during the same time period, as evidenced by Huntsville, AL. 
+
+Two more tech hubs grew in job volume while their state lost some ground in their brain gain measure: Framingham, MA and Lowell-Billerica-Chelmsford, MA. 
+
+However, all three of these hubs had a decrease in jobs per 1,000 between 2010 and 2017.
+
+Another pattern than emerged was the growth of tech hubs (as measured by an increased in both job volume and jobs per 1,000) in states that were losing ground in brain gain during that same period. These tech hubs were Atlanta-Sandy Springs-Roswell, GA, Boston-Cambridge-Newton, MA, Boulder, CO, Chicago-Naperville=Arlington Heights, IL, Durham-Chapel Hill, NC, New York-Jersey City-White Plains, NY-NJ.
+
+The remaining tech hubs resided in states experiencing active brain gain between 2010 and 2017, or it was Washington, D.C., which did not have a brain drain measure.
+
+
+## Key Insights: Data Question 2
+* Is is possible to observe the emergence of a tech hub in one state and a brain drain in neighboring states?
+
+Yes! Atlanta-Sandy Springs-Roswell, GA and Austin-Round Rock, TX are prime examples of this phenomenon. Both experienced tech job volume growth from 2000 to 2017, and tech jobs per 1,000 growth from 2010 to 2017, while one or more adjacent states experienced brain drain. 
+
+## Key Insights: Data Question 3
+* Do states that have tech hubs experience less brain drain overall?
+
+Yes! We can definitely observe a pattern here. Out of the 19 tech hubs identified in this study, only one was located in a state with positive brain drain measures.
+
+## Additional Key Insights
+
+In 2017,  Nashville was not yet a tech hub by the definition established above. In fact, the Nashville MSA was only about half as “techy” as the Austin, TX MSA in 2017.
+
+The presence of military bases and/or defense contractor employers can contribute to the presence of a tech hub in a given area, as evidenced by California-Lexington Park, MD, home of Naval Air Systems Command. 
