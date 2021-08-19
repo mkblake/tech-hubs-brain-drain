@@ -15,19 +15,22 @@ As a native Nebaskan, I am familiar with the phenomenon known as brain drain, wh
 
 [The Case for Growth Centers: How to Spread Tech Innovation Across America](https://www.brookings.edu/research/growth-centers-how-to-spread-tech-innovation-across-america/) - The Brookings Institution
 
+[State of Middle Tennessee Tech Report 2020](https://www.middletntechjobs.com/state-of-middle-tennessee-tech-2020/) - Dr. Amy Harris, associate professor of information systems and analytics, MTSU, in partnership with the Greater Nashville Technology Council
+
 
 ## Definitions
 **Tech Hub**: A metropolitan statistical area (MSA) that met at least one of the following conditions in 2017:
+
 * Total count of technology jobs  - Top 10 in the U.S.
 * Jobs per 1,000 - 76 and above (statistical outliers)
-* Location Quotient - 1.7 and above (statistical outliers)
 
+**Brain Gain** occurs when states "are keeping and receiving a greater share of [highly educated] adults than they used to." - [Losing Our Minds](https://www.jec.senate.gov/public/index.cfm/republicans/2019/4/losing-our-minds-brain-drain-across-the-united-states). This measure is calculated by subtracting the percentage of a state's highly educated entrants from that state's percentage of highly educated leavers. If there are fewer leavers than entrants, the resulting number will be negative, indicating brain gain.
 
-**Brain Gain** occurs when states "are keeping and receiving a greater share of [highly educated] adults than they used to." - [Losing Our Minds](https://www.jec.senate.gov/public/index.cfm/republicans/2019/4/losing-our-minds-brain-drain-across-the-united-states)
+**Brain Drain** occurs when states are "hemorrahging their homegrown talent and failing to attract out-of-staters who are highly educated." - [Losing Our Minds](https://www.jec.senate.gov/public/index.cfm/republicans/2019/4/losing-our-minds-brain-drain-across-the-united-states). This measure is calculated by subtracting the percentage of a state's highly educated entrants from that state's percentage of highly educated leavers. If there are more leavers than entrants, the resulting number will be positive, indicating brain drain.
 
-**Brain Drain** occurs when states are "hemorrahging their homegrown talent and failing to attract out-of-staters who are highly educated." - [Losing Our Minds](https://www.jec.senate.gov/public/index.cfm/republicans/2019/4/losing-our-minds-brain-drain-across-the-united-states)
+**Highly Educated** describes an adult between the ages of 31 and 40 who resides in the top third of the national education distribution. 
 
-**Highly Educated** indicates an adult between the ages of 31 and 40 who resides in the top third of the national education distribution. 
+**Jobs per 1,000** is a measure indicating the number of technology jobs per 1,000 jobs in the given area. It helps to answer the question, "Do technology jobs make up a large proportion of jobs in our area?" 
 
 ## Data Questions
 * Is it possible for a tech hub to emerge in a state despite documented brain drain in that state?
@@ -36,15 +39,50 @@ As a native Nebaskan, I am familiar with the phenomenon known as brain drain, wh
 
 
 ## Data Sources
-[Occupational Employment and Wage Statistics (OEWS) Reports](https://www.bls.gov/oes/) - Bureau of Labor Statistics, United States Department of Labor
-- State-level data
-- Metropolitan Statistical Area (MSA) level data
+[Occupational Employment and Wage Statistics (OEWS) Reports](https://www.bls.gov/oes/) - Bureau of Labor Statistics, United States Department of Labor. This datasource provides detailed estimates of how many jobs in a particular occupation exist in an area; this information is available by state & by MSA.
+
 
 [Losing Our Minds: Brain Drain across the United States](https://www.jec.senate.gov/public/index.cfm/republicans/2019/4/losing-our-minds-brain-drain-across-the-united-states) - Social Capital Project, United States Congress Joint Economic Committee  
 
 
 ## Methodology
-I downloaded .csv source files from my two data sources. I cleaned the OEWS files in Jupyter notebooks, using Python. I selected columns relevant to my project, renamed column headers as necessary, and selected rows relevant to my project, based on the technology occupational codes for that year. (See Excel file, "Technology Job Codes by Year" in this repo.) This resulted in one dataframe for each year, 2000, 2010, 2017. I appended these three dataframes together, produced a .csv file, converted it to an Excel file, added the Brain Drain data as an additional sheet, and used Excel to connect my data source to Tableau.
+I downloaded .csv source files from my two data sources. I cleaned the OEWS files in Jupyter notebooks, using Python. I selected columns relevant to my project, did some string cleaning and renamed column headers to create consistent column names across all years, and selected rows relevant to my project, based on the technology occupational codes for that year. (See Excel file, "Technology Job Codes by Year" in this repo.) This resulted in one clean dataframe for each year, 2000, 2010, 2017. I appended these three dataframes together, produced a .csv file, converted it to an Excel file, added the Brain Drain data as an additional sheet, and used Excel to connect my data source to Tableau.
 
 
 ## Key Insights
+### 19 Tech Hubs...
+- Atlanta-Sandy Springs-Roswell, GA
+- Austin-Round Rock, TX
+- Boston-Cambridge-Newton, MA
+- Boulder, CO
+- California-Lexington Park, MD
+- Chicago-Naperville-Arlington Heights, IL
+- Dallas-Plano-Irving, TX
+- Durham-Chapel Hill, NC
+- Framingham, MA
+- Huntsville, AL
+- Los Angeles-Long Beach-Glendale, CA
+- Lowell-Billerica-Chelmsford, MA
+- New York-Jersey City-White Plains, NY-NJ
+- San Francisco-Redwood City-South San Francisco, CA
+- San Jose-Sunnyvale-Santa Clara, CA
+- Seattle-Bellevue-Everett, WA
+- Silver Spring-Frederick-Rockville, MD
+- Trenton, NJ
+- Washington-Arlington-Alexandria, DC
+
+### Across 12 States...
+- Alabama
+- California
+- Colorado
+- Illinois
+- Georgia
+- Maryland
+- Massachussetts
+- New York
+- North Carolina
+- New Jersey
+- North Carolina
+- Washington
+
+
